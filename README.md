@@ -158,3 +158,5 @@ The implementation should report appropriate errors when these conditions occur.
 
 This project demonstrates how secret data can be embedded in a BMP image using the Least Significant Bit technique. Because modifying an LSB causes only a small change to an 8-bit component, the resulting image can retain nearly the same visual appearance. The decoder reads the embedded information to recover the hidden file.
 
+Implemented by Tharis Selvaraj, Advanced embedded systems Trainee, Emertxe Information Technologies, Bengaluru.
+
