@@ -7,13 +7,13 @@ The aim of this project is to implement **Least Significant Bit (LSB) image steg
 - **Encoding:** Hide a secret file inside a BMP image.
 - **Decoding:** Extract the hidden file from the encoded BMP image.
 
-## Steganography?
+## Steganography
 
 Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video.
 
 In this project, digital steganography is used: secret data is hidden inside the pixel data of an image.
 
-## Why Use the LSB Bit?
+## Use of LSB Bit
 
 LSB stands for **Least Significant Bit**. In an 8-bit binary value, it is the rightmost bit. Changing this bit changes the value by only one, whereas changing the most significant bit can cause a much larger change.
 
@@ -30,7 +30,7 @@ The project requirements describe encoding message bits in the LSBs of the image
 
 > **Note:** LSB steganography hides the presence of data; it does not, by itself, encrypt the message.
 
-## Pixel?
+## Pixel
 
 A **pixel** is an individual picture element in a digital raster image. An image consists of rows and columns of pixels.
 
@@ -46,7 +46,7 @@ Blue  = 50
 
 Each 8-bit component has its own LSB. A program can store message bits in these least significant bits. The uploaded project document discusses using the LSBs of RGB data for encoding.
 
-## What Is a `.bmp` File?
+## `.bmp` File?
 
 `.bmp` stands for **Bitmap Image File**. BMP is an image-file format that stores information describing an image and its pixel data.
 
@@ -158,5 +158,6 @@ The implementation should report appropriate errors when these conditions occur.
 
 This project demonstrates how secret data can be embedded in a BMP image using the Least Significant Bit technique. Because modifying an LSB causes only a small change to an 8-bit component, the resulting image can retain nearly the same visual appearance. The decoder reads the embedded information to recover the hidden file.
 
+##
 Implemented by Tharis Selvaraj, Advanced embedded systems Trainee, Emertxe Information Technologies, Bengaluru.
 
