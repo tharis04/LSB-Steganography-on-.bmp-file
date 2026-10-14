@@ -3,9 +3,11 @@ Implementation of LSB Image Steganography in C to securely hide and retrieve sec
 
 The aim of this project is to implement **Least Significant Bit (LSB) image steganography** on a `.bmp` (Bitmap) image. The program hides a secret message or text file inside the image by encoding the message bits into the least significant bits of the image's pixel data. The encoded image should look almost the same as the original image.
 
-## Main Operations
-- **Encoding:** Hide a secret file inside a BMP image.
-- **Decoding:** Extract the hidden file from the encoded BMP image.
+📄 Project Presentation
+
+Access the complete project presentation here:
+
+👉 "View Project Presentation (Google Drive)" (https://drive.google.com/file/d/1FdkM0AysN43siiZP06yLyCRRHUFyh8Sk/view?usp=drivesdk)
 
 ## Steganography
 
